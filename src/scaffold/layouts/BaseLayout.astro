@@ -1,0 +1,28 @@
+---
+import "/src/styles/global.css";
+
+import { siteConfig } from "../../site/config/site.config";
+
+import HeadLayout from './HeadLayout.astro';
+
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<HeadLayout />
+	</head>
+	<!-- <body class="flex min-h-screen flex-col"> -->
+    <body>
+        <slot />
+		<!-- <Header title={SITE.title} homeUrl={SITE.homeUrl} cta={SITE.headerCta} links={SITE.headerLinks} client:load />
+		<div class="flex-grow container mx-auto px-4 mt-2">
+			<slot />
+		</div>
+		<Footer title={SITE.title} homeUrl={SITE.homeUrl} links={SITE.footerLinks} /> -->
+	</body>
+</html>
