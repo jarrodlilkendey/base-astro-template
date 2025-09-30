@@ -1,3 +1,5 @@
+@import "@jarrodlilkendey/tokens";
+
 @import "tailwindcss";
 
 @import "../scaffold/styles/scaffold.css";
