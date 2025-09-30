@@ -21,11 +21,11 @@ importers:
         specifier: ^3.6.0
         version: 3.6.0
       '@jarrodlilkendey/astro-ui':
-        specifier: ^1.1.2
-        version: 1.1.2(astro@5.14.1(@types/node@24.5.2)(jiti@2.6.0)(lightningcss@1.30.1)(rollup@4.52.3)(typescript@5.9.2))(tailwindcss@4.1.13)(typescript@5.9.2)
+        specifier: ^1.2.0
+        version: 1.2.0(astro@5.14.1(@types/node@24.5.2)(jiti@2.6.0)(lightningcss@1.30.1)(rollup@4.52.3)(typescript@5.9.2))(tailwindcss@4.1.13)(typescript@5.9.2)
       '@jarrodlilkendey/tokens':
-        specifier: ^1.1.2
-        version: 1.1.2(tailwindcss@4.1.13)
+        specifier: ^1.2.0
+        version: 1.2.0(tailwindcss@4.1.13)
       '@tailwindcss/vite':
         specifier: ^4.1.13
         version: 4.1.13(vite@6.3.6(@types/node@24.5.2)(jiti@2.6.0)(lightningcss@1.30.1))
@@ -463,15 +463,15 @@ packages:
     resolution: {integrity: sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5lWA1k4w==}
     engines: {node: '>=18.0.0'}
 
-  '@jarrodlilkendey/astro-ui@1.1.2':
-    resolution: {integrity: sha512-UZqf1MAQPzhtM3TWpHdnCKgUIXsh80YpesAU0HHFfd2rLxTYuziza807eFsgBNRw6rB330myXreFN2kr9lfUtw==, tarball: https://npm.pkg.github.com/download/@jarrodlilkendey/astro-ui/1.1.2/69f03b547f4226348546fb07822b8a59e8543f2a}
+  '@jarrodlilkendey/astro-ui@1.2.0':
+    resolution: {integrity: sha512-UnJ6meUp8tSBOpT6nHdTiWG+XKIJNQSQGtzUN0wHQcOgStWHPD3tyAkssaoKUqZ/PkN89Hj+GcZYKTuFV92zsg==, tarball: https://npm.pkg.github.com/download/@jarrodlilkendey/astro-ui/1.2.0/a9e60f593dc374523aabdbf122d48ac749494962}
     peerDependencies:
       astro: '>=4'
       tailwindcss: '>=4'
       typescript: '>=5'
 
-  '@jarrodlilkendey/tokens@1.1.2':
-    resolution: {integrity: sha512-w0jC7YD3WfELremhD9wVorV570crDLN76ow99XFMF/e/+vWTASJ1Bu1SQz3sdGVLGgbE5Wzy/CbZLurTQqSWSw==, tarball: https://npm.pkg.github.com/download/@jarrodlilkendey/tokens/1.1.2/9fd34e788106a9f89eacaeb34f389d7ab4c54f03}
+  '@jarrodlilkendey/tokens@1.2.0':
+    resolution: {integrity: sha512-Sc8M+kfM4+dTINhwce6kJvOcyIxLUgwtbVkuoO28+RyJrXKXKpZtn+xoi7a3cMFmnyiHmBsvaPeYPvVzLqKzew==, tarball: https://npm.pkg.github.com/download/@jarrodlilkendey/tokens/1.2.0/100d8bc816680adae8f7ed2e497b91cf63468204}
     peerDependencies:
       tailwindcss: '>=4'
 
@@ -2487,13 +2487,13 @@ snapshots:
     dependencies:
       minipass: 7.1.2
 
-  '@jarrodlilkendey/astro-ui@1.1.2(astro@5.14.1(@types/node@24.5.2)(jiti@2.6.0)(lightningcss@1.30.1)(rollup@4.52.3)(typescript@5.9.2))(tailwindcss@4.1.13)(typescript@5.9.2)':
+  '@jarrodlilkendey/astro-ui@1.2.0(astro@5.14.1(@types/node@24.5.2)(jiti@2.6.0)(lightningcss@1.30.1)(rollup@4.52.3)(typescript@5.9.2))(tailwindcss@4.1.13)(typescript@5.9.2)':
     dependencies:
       astro: 5.14.1(@types/node@24.5.2)(jiti@2.6.0)(lightningcss@1.30.1)(rollup@4.52.3)(typescript@5.9.2)
       tailwindcss: 4.1.13
       typescript: 5.9.2
 
-  '@jarrodlilkendey/tokens@1.1.2(tailwindcss@4.1.13)':
+  '@jarrodlilkendey/tokens@1.2.0(tailwindcss@4.1.13)':
     dependencies:
       tailwindcss: 4.1.13
 

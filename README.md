@@ -22,6 +22,32 @@
 pnpm create astro@latest --template jarrodlilkendey/base-astro-template
 ```
 
+### Consume Astro Shared Components
+
+#### Populate .npmrc
+
+```.npmrc
+@jarrodlilkendey:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
+```
+
+#### Create a Token in GitHub
+
+- Give it permission to read public GitHub packages
+- Set the NODE_AUTH_TOKEN environvent variable to this token
+
+#### Add Packages
+
+```
+pnpm add @jarrodlilkendey/astro-ui @jarrodlilkendey/tokens
+```
+
+#### Update Packages
+
+```
+pnpm update @jarrodlilkendey/astro-ui @jarrodlilkendey/tokens
+```
+
 ### Commands
 
 All commands are run from the root of the project, from a terminal:
